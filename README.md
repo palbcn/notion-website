@@ -1,17 +1,24 @@
-# Notion website template
+# Github Pages from Notion
 
-Make a website using Notion, GitHub Pages and Loconotion in just 5 steps.
+Based on `timovv/notion-website-template`
 
-1. Fork this repo or press [use this template button](https://github.com/timovv/notion-website-template/generate).
-1. Create a Notion page to be your website. This can have subpages, databases, anything supported by [Loconotion](https://github.com/leoncvlt/loconotion).
-1. Share your Notion page publicly, and update `site.toml` in your repo to point to it.
-1. Run the `Publish Notion website to GitHub Pages` action under the Actions tab of your repo.
-1. Update your repo's `Pages` settings to use the `gh-pages` branch, hit save, and voila!
+Automated make a website from Notion content, using Loconotion, and deploy into GitHub Pages.
 
-To resync the website, simply run the GitHub action again. `site.toml` can be updated to use any of the settings specified in the [Loconotion README](https://github.com/leoncvlt/loconotion/blob/master/README.md).
+### configuration
 
-## Acknowledgements
+1. Create a Notion page to be your website. Must be a single home page, but can have subpages, databases, anything supported by [Loconotion](https://github.com/leoncvlt/loconotion).
 
-Thanks to:
-- @leoncvt for creating the Loconotion script
-- @X1011 for the original script used to deploy the website to GitHub pages
+1. Share your Notion page **publicly**:   
+go to your Notion project, find the page you want to share, press the `share` button and copy the link. In my case, `https://mangrove-kumquat-e2f.notion.site/M-sica-b0a1a76be739495798fea6e8f11c2ce4`
+
+4. update `site.toml` in your repo to point to it.
+
+5. Run the `Publish Notion website to GitHub Pages` action under the Actions tab of your repo.
+
+6. Update your repo's `Pages` settings to use the `gh-pages` branch, hit save, and voila!
+
+`site.toml` can be updated to use any of the settings specified in the [Loconotion README](https://github.com/leoncvlt/loconotion/blob/master/README.md).
+
+### execution
+
+To resync the website, simply run the GitHub action again. 
