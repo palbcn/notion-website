@@ -1,8 +1,8 @@
-# Github Pages from Notion
+# Build Github Pages from Notion content.
 
 Based on `timovv/notion-website-template`
 
-Automated make a website from Notion content, using Loconotion, and deploy into GitHub Pages.
+Automated build a website from Notion content, using Loconotion, and deploy into GitHub Pages.
 
 ### configuration
 
