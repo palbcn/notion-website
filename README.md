@@ -22,3 +22,6 @@ go to your Notion project, find the page you want to share, press the `share` bu
 ### execution
 
 To resync the website, simply run the GitHub action again. 
+
+Or right from the command line, with  `gh --repo palbcn/notion-website workflow run main.yml`
+
