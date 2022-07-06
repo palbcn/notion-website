@@ -8,3 +8,7 @@ name = "site"
 
 # This page should be the root of your website. It's important.
 page = "https://mangrove-kumquat-e2f.notion.site/Mis-cosas-3eb134fd590a4a7c8bb55d03f88dc48f"
+
+[[site.inject.body.script]]
+  type="text/javascript"
+  src="custom-script.js"
